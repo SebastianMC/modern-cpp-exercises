@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		9E63DF552B0D63AF00485F31 /* modern-cpp-exercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "modern-cpp-exercises"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E63DF582B0D63AF00485F31 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9E63DF5F2B0D69AB00485F31 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		9E63DF4C2B0D63AF00485F31 = {
 			isa = PBXGroup;
 			children = (
+				9E63DF5F2B0D69AB00485F31 /* README.md */,
 				9E63DF572B0D63AF00485F31 /* modern-cpp-exercises */,
 				9E63DF562B0D63AF00485F31 /* Products */,
 			);

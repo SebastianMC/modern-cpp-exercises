@@ -7,8 +7,12 @@
 
 #include <iostream>
 
+#include "cpp23/cpp23-001-optional-par-in-lambdas.h"
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
     std::cout << "Hello, World!\n";
+
+    cpp23::ex001::doit();
+
     return 0;
 }

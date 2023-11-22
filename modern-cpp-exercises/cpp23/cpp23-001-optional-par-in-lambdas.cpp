@@ -37,12 +37,15 @@ void doit() {
         };
         withParen();
 
+#ifndef _MSC_VER
+        // as of now, not supported by MSVC, only clang and gcc
         std::string s2 = "xyz";
         auto noSean = [s2 = std::move(s2)] mutable { // A syntax error before C++23.
             s2 += "d";
             std::cout << s2 << '\n';
         };
         noSean();
+#endif
     }
 }
 }

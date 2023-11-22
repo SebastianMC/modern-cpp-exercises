@@ -206,7 +206,9 @@ xcuserdata/
 #
 # c.f. https://www.jetbrains.com/objc/help/managing-projects-under-version-control.html?search=workspace.xml
 # 
-#.idea/workspace.xml
+
+.idea/
+
 #
 # TEXTMATE:
 #
@@ -217,3 +219,5 @@ xcuserdata/
 ####
 # UNKNOWN: recommended by others, but I can't discover what these files are
 #
+
+cmake-build-debug/
